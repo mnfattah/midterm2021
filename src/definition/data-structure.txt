@@ -1,29 +1,86 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-Ans :
+Ans : Data structures are essential for the efficient managing, storing, organizing and using large amounts of information.
 
 What are the various operations that can be performed on different Data Structures?
+Ans: Creation, Insertion, Traversal, Search, Sorting, Merging, Updation, Deletion...
+
 List out the areas in which data structures are applied extensively?
+Ans: Compiler Design.
+     DBMS.
+     Graphics.
+     Simulation.
+     Numerical Analysis.
+     Artificial Intelligence.
+
 what is an Array?
+Ans:  An array is a container object that holds a fixed number of values of a single type.
+
 what is the difference between the Array and ArrayList?
+Ans: Array is a fixed length data structure whereas ArrayList is a variable length Collection class. We cannot change length of array once created in Java but ArrayList can be changed.
+
 what is LinkedList?
+Ans: A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations.
+
 How is an Array different from Linked List?
+Ans: Array elements can be accessed randomly using the array index. Random accessing is not possible in linked lists. The elements will have to be accessed sequentially.
+
 what is queue?
+Ans: A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
+
 what is stack?
+Ans: Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+
 what is FIFO and LIFO?
+Ans:FIFO is an abbreviation for first in, first out. It is a method for handling data structures where the first element is processed first and the newest element is processed last.
+LIFO is an abbreviation for Last in, first out is same as fist in, last out (FILO). It is a method for handling data structures where the last element is processed first and the first element is processed last.
+
 what is the order of complexity?
+Ans: Time Complexity of algorithm/code is not equal to the actual time required to execute a particular code but the number of times a statement executes.
+
 what is the best case to search an element from an array?
+Ans:  O(n)
+
 what is the worst case to search an element from an array?
+Ans:  O(n)
+
 what is tree in data structure?
+Ans: A tree is a nonlinear data structure, compared to arrays, linked lists, stacks and queues which are linear data structures. A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or more subtrees.
+
 what is graph in data structure?
+Ans:A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as vertices and the edges are lines or arcs that connect any two nodes in the graph.
+
 what is the difference between the HashTable and HashMap?
+Ans: HashMap is non-synchronized and not thread safe whereas Hashtable is synchronized and thread safe
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+Ans: RDBMS = Array
+     Network data model = Graph
+     Hierarchical data model = Trees
+
 How HashMap works in java?
+Ans: HashMap works based on the hashing principle. Hashing is the mechanism of assigning a code to a variable or attribute using an algorithm to enable easy retrieval.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+Ans: java.lang.ArrayIndexOutOfBoundsException thrown to indicate that an array has been accessed with an illegal index. The index is either negative or greater than or equal to the size of the array.
+
 What are the different ways of copying an array into another array?
+Ans: Copying element by element
+Using the clone() method
+Using the System.arraycopy() method
+
 What is difference between an array and a linked list?
+Ans: Arrays store elements in contiguous memory locations, resulting in easily calculable addresses for the elements stored and this allows a faster access to an element at a specific index. Linked lists are less rigid in their storage structure and elements are usually not stored in contiguous locations, hence they need to be stored with additional tags giving a reference to the next element.
+
 What is DFS and BFS?
+Ans: Breadth first search (BFS) and Depth First Search (DFS) are the simplest two graph search algorithms.
+
 What is Recursion?
+Ans: Recursion is a method of solving problems that involves breaking a problem down into smaller and smaller subproblems until you get to a small enough problem that it can be solved trivially. Usually recursion involves a function calling itself.
+
 What are linear and non linear data Structures?
+Ans: In a linear data structure, data elements are arranged in a linear order where each and every elements are attached to its previous and next adjacent. In a non-linear data structure, data elements are attached in hierarchically manner.
+
 What is Big-(O)-notation?
+Ans: Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
