@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.OptionalDouble;
+import java.util.stream.IntStream;
 
 public class CsvReader {
 
@@ -63,7 +65,18 @@ public class CsvReader {
         }
 
         // implement the average score of the class here
+        int total=0;
+        for (Trainee av : roster) {
+
+            int m = av.getNumberOfExercisesSolved();
+
+            total = total + m;
+
+        }
+
+        System.out.println("Class Average is "+ total/ roster.size());
+        }
 
     }
 
-}
+
