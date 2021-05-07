@@ -1,6 +1,10 @@
 package design;
 
-public class FortuneEmployee extends UnitTestingEmployeeInfo {
+public class FortuneEmployee extends EmployeeInfo {
+
+    public FortuneEmployee(String name, int number, double salary) {
+        super(name, number, salary);
+    }
 
     /**
      * FortuneEmployee class has a main methods where you will be able to create Object from
@@ -14,7 +18,23 @@ public class FortuneEmployee extends UnitTestingEmployeeInfo {
      **/
     public static void main(String[] args) {
 
-        FortuneEmployee fe = new FortuneEmployee();
+        FortuneEmployee fe = new FortuneEmployee("Asif", 02, 6000.00);
+
+        System.out.println("Employee Name " + fe.getName());
+        fe.setYearOfEmployeement(10);
+        fe.setSalary(9000.00);
+
+        System.out.println("Employee works for this company is about "+fe.getYearOfEmployeement()+" years.");
+
+        System.out.println("Employee's monthly salary is "+ fe.getSalary());
+
+        fe.mailCheck();
+
+        double b = fe.calculateEmployeeBonus(9000.00,"Average");
+
+        System.out.println("Employee bonus is "+b);
+
+
 
 
     }
